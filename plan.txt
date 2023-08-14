@@ -1,0 +1,3 @@
+> Create home page with logo, navbar, and select phots
+> Navbar should have links to all plants
+> All plants page should have ability to filter on category
