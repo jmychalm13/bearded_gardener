@@ -3,13 +3,12 @@ export function Header() {
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
         <img src="src/assets/bearded_garden_trans.png" alt="" />
-        Bearded Garden, LLC.
       </a>
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -18,7 +17,7 @@ export function Header() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mx-auto">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#">
               Home
@@ -35,29 +34,49 @@ export function Header() {
               href="#"
               id="navbarDropdown"
               role="button"
-              data-toggle="dropdown"
+              data-bs-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Dropdown
+              Categories
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <a className="dropdown-item" href="#">
-                Action
-              </a>
-              <a className="dropdown-item" href="#">
-                Another action
+                Alocasia
               </a>
               <div className="dropdown-divider"></div>
               <a className="dropdown-item" href="#">
-                Something else here
+                Epipremnum & Vines
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Hoya
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Monstera
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Peperomia
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Philodendron
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Pothos
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Succulents
+              </a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="#">
+                Syngonium
               </a>
             </div>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled" href="#">
-              Disabled
-            </a>
           </li>
         </ul>
       </div>

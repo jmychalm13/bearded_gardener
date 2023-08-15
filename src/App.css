@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  /* background: url(./assets/leaves.webp); */
+}
+
+#content {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: #fff;
+}
+
+#content h1 {
+  font-size: 4rem;
+  font-family: 'Barriecito', cursive;
+}
+
+#content img {
+  width: 17rem;
+  max-height: 21.5rem;
 }
 
 nav {
@@ -7,5 +30,5 @@ nav {
 }
 
 nav img {
-  width: 7.25rem;
+  width: 6.25rem;
 }
