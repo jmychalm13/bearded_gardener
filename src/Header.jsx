@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav id="header" className="navbar sticky-top navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="#">
         <img src="src/assets/bearded_garden_trans.png" alt="" />
       </a>
