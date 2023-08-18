@@ -2,6 +2,12 @@ export function Content() {
   return (
     <div id="content" className="container">
       <h1 className="my-4 text-center">Welcome to the Bearded Garden</h1>
+      <p>
+        Tomato and basil garlic sriracha noodles overflowing berries apples cashew tasty plums sparkling pomegranate
+        punch coconut rice ghost pepper coconut sugar shaved almonds cherry bomb pepper lingonberry second course
+        roasted peanuts tahini drizzle bruschetta spicy picnic salad lemon winter fiery fruit golden cayenne pepper
+        fresh.
+      </p>
       <div className="container-fluid">
         <div className="images row">
           <div className="col-sm col-md-6 col-lg-3 text-center">
