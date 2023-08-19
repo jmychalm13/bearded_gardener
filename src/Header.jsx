@@ -24,8 +24,8 @@ export function Header() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Link
+            <a className="nav-link" href="https://www.beardedgardenplants.com/">
+              Shop
             </a>
           </li>
           <li className="nav-item dropdown">
