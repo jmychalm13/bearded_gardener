@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bricolage+Grotesque:opsz@10..48&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway&display=swap');
 
 html, body{
   margin: 0px;
@@ -9,24 +9,27 @@ html, body{
 #header {
   /* background: url(assets/leaves.webp); */
   background-color: #cfe6d5;
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 
 body {
   background: url("https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80") center/cover no-repeat fixed;
-  /* background: url(./assets/leaves.webp); */
-  font-family: 'Bricolage Grotesque', sans-serif;
-
 }
 
 #content {
   color: #cfe6d5;
+  font-family: 'Raleway', sans-serif;
 }
 
 #content h1 {
   font-size: 4rem;
-  font-family: 'Barriecito', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+#content .special-text {
+  font-family: 'Parisienne', cursive;
+  font-size: 4rem;
 }
 
 #content img {
