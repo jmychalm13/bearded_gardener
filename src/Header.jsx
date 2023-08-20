@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Header() {
   return (
     <nav id="header" className="navbar sticky-top navbar-expand-lg navbar-light">
@@ -41,9 +43,9 @@ export function Header() {
               Categories
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+              <Link className="dropdown-item" to="/alocasia">
                 Alocasia
-              </a>
+              </Link>
               <div className="dropdown-divider"></div>
               <a className="dropdown-item" href="#">
                 Epipremnum & Vines
