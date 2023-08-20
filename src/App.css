@@ -25,6 +25,13 @@ body {
 #content h1 {
   font-size: 4rem;
   font-family: 'Parisienne', cursive;
+  margin-top: 40px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 20px #CEE6D5,
+    -2px 1px 30px #CEE6D5;
 }
 
 #content img {
